@@ -9,3 +9,9 @@ See all mounted directories:
 
 Unmount a directory:
 `umount ~/pi`
+
+## Pololu Maestro USB Servo Controller Linux Software
+A few packages are required to run this software. Install them with the command:
+`sudo apt-get install libusb-1.0-0-dev mono-runtime libmono-winforms2.0-cil`
+
+Follow the other instructions in the included README.txt
