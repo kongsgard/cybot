@@ -16,6 +16,15 @@ A few packages are required to run this software. Install them with the command:
 
 Follow the other instructions in the included README.txt
 
+# LED Controller Software Requirements
+Remember to enable SPI on the Raspberry Pi.
+Install these packages:
+```
+sudo apt-get install python-dev
+sudo apt-get install python-pip
+sudo pip install spidev
+```
+
 # Other configurations
 
 ## WS2801 wire color codes
