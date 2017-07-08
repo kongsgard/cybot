@@ -15,3 +15,13 @@ A few packages are required to run this software. Install them with the command:
 `sudo apt-get install libusb-1.0-0-dev mono-runtime libmono-winforms2.0-cil`
 
 Follow the other instructions in the included README.txt
+
+# Other configurations
+
+## WS2801 wire color codes
+| Color | Pinout |
+| --- | --- |
+| Black | 5V |
+| Green | CLK |
+| Red | SI |
+| Blue | GND |
