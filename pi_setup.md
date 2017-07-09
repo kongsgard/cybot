@@ -27,6 +27,14 @@ sudo pip install spidev
 
 # Other configurations
 
+## Motor Controller
+
+The motor controller used is the [Pololu TReX Jr Dual Motor Controller DMC02](https://www.pololu.com/product/767).
+
+## Servo Controller
+
+The servo controller used is the [Mini Maestro 18-Channel USB Servo Controller (Assembled)](https://www.pololu.com/product/1354).
+
 ## WS2801 wire color codes
 | Color | Pinout |
 | --- | --- |
