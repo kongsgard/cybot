@@ -54,12 +54,12 @@ class PixelLights:
     def wheel(self, wheel_pos):
         if (wheel_pos < 85):
             return self.color(wheel_pos * 3, 255 - wheel_pos * 3, 0)
-        elif (wheelPos < 170):
+        elif (wheel_pos < 170):
             wheel_pos -= 85;
-            return self.Color(255 - wheel_pos * 3, 0, wheel_pos * 3)
+            return self.color(255 - wheel_pos * 3, 0, wheel_pos * 3)
         else:
             wheel_pos -= 170;
-            return self.Color(0, wheel_pos * 3, 255 - wheel_pos * 3)
+            return self.color(0, wheel_pos * 3, 255 - wheel_pos * 3)
 
     def rainbow_cycle(self, pixels, wait):
         for color in range(256): # one cycle of all 256 colors in the wheel
@@ -79,9 +79,9 @@ class PixelLights:
 
     def main(self):
         try:
-            self.color_wipe(self.led_pixels, self.color(255, 0, 0), 0.05)
-            self.color_wipe(self.led_pixels, self.color(0, 255, 0), 0.05)
-            self.color_wipe(self.led_pixels, self.color(0, 0, 255), 0.05)
+#            self.color_wipe(self.led_pixels, self.color(255, 0, 0), 0.05)
+#            self.color_wipe(self.led_pixels, self.color(0, 255, 0), 0.05)
+#            self.color_wipe(self.led_pixels, self.color(0, 0, 255), 0.05)
             self.rainbow_cycle(self.led_pixels, 0.00)
             self.clear(self.led_pixels)
         except KeyboardInterrupt:
