@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import sys
 import time
-from LEDController import LEDController
+from LEDDriver import LEDDriver
 
-LEDs = LEDController()
+LEDs = LEDDriver()
 
 LED_command = ''
 if len(sys.argv) > 1:

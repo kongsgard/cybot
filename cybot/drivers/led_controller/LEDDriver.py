@@ -3,7 +3,7 @@
 
 import RPi.GPIO as GPIO, time, os, sys
 
-class LEDController:
+class LEDDriver:
     led_pixels = [0] * 160 # Number of pixels in LED strip
 
     GPIO.setmode(GPIO.BCM)

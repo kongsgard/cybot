@@ -1,6 +1,6 @@
 import serial
 
-class ServoController:
+class ServoDriver:
     device = '/dev/ttyACM0'
     baud_rate = 9600
     timeout = 1

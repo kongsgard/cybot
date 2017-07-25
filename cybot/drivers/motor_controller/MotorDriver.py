@@ -1,6 +1,6 @@
 import serial
 
-class MotorController:
+class MotorDriver:
     device = '/dev/ttyUSB0'
     baud_rate = 19200
     timeout = 1
